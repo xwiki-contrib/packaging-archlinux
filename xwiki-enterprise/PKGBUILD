@@ -1,6 +1,6 @@
 # Maintainer: bouquetf <bouquet.frederic@gmail.com>
 pkgname=xwiki-enterprise
-pkgver=5.4.1
+pkgver=5.4.4
 pkgrel=1
 depends=(tomcat7)
 arch=('any')
@@ -29,7 +29,7 @@ source=(http://download.forge.objectweb.org/xwiki/${pkgname}-web-${pkgver}.war
 )
 noextract=(${pkgname}-web-${pkgver}.war)
 
-md5sums=('7fd787316a6314a4b6973830e8e0087f'
+md5sums=('3a77aa8ebc6cbb0f2e560a758d6a9ddf'
          'ed0ff8ff5ba782cd6c508d3599039e13'
          '80c63e5d61ac2c485041fe99f12143a7'
          '243c711930a975db7507077c41bde651'
@@ -82,3 +82,7 @@ package() {
 }
 
 # vim:set ts=2 sw=2 et:
+
+
+
+
